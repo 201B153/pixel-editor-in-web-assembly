@@ -93,7 +93,7 @@ function drawToCanvas(state) {
 
             let color = `rgb(${cells[index + 0]}, ${cells[index + 1]}, ${cells[index + 2]})`;
             context.fillStyle = color;
-            context.fillRect(x * cellSize, y * cellSize, cellSize, cellSize):
+            context.fillRect(x * cellSize, y * cellSize, cellSize, cellSize);
         }
         isRed = !isRed;
     }
