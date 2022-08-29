@@ -2,91 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Pixel editor</title>
+    <title>Pixel-Editor</title>
   </head>
+  <!--<body style="overflow: auto;">-->
   <body>
-    <div>
-      <canvas
-        id="my-canvas"
-        height="502"
-        width="502"
-        style="background-color: black"
-      ></canvas>
-    </div>
-    <div
-      style="
-        display: flex;
-        width: 500px;
-        height: 50px;
-        justify-content: space-between;
-      "
-    >
-      <button
-        id="red"
-        style="
-          color: white;
-          font-size: large;
-          background-color: red;
-          width: 90px;
-          height: 50px;
-          border-radius: 0.5em;
-        "
-      >
-        red
-      </button>
-      <button
-        id="green"
-        style="
-          color: white;
-          font-size: large;
-          background-color: green;
-          width: 90px;
-          height: 50px;
-          border-radius: 0.5em;
-        "
-      >
-        green
-      </button>
-      <button
-        id="blue"
-        style="
-          color: white;
-          font-size: large;
-          background-color: blue;
-          width: 90px;
-          height: 50px;
-          border-radius: 0.5em;
-        "
-      >
-        blue
-      </button>
-      <button
-        id="undo"
-        style="
-          color: black;
-          font-size: large;
-          background-color: white;
-          width: 90px;
-          height: 50px;
-          border-radius: 0.5em;
-        "
-      >
-        undo
-      </button>
-      <button
-        id="redo"
-        style="
-          color: black;
-          font-size: large;
-          background-color: white;
-          width: 90px;
-          height: 50px;
-          border-radius: 0.5em;
-        "
-      >
-        redo
-      </button>
-    </div>
     <script src="index.js"></script>
+    <div>
+      <!--<canvas id="my-canvas" style="height: 500px;width: 400px;background-color: bisque;color: blue;">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nihil rerum corrupti voluptatem explicabo impedit unde illo accusamus aspernatur? Quae commodi, fuga porro impedit fugiat similique sed laborum voluptate nemo.
+    </canvas>-->
+      <canvas id="my-canvas" height="502" width="502" style="background-color: black;"></canvas> </canvas>
+      <!-- <input type="text" id="first" />
+      <input type="text" id="second" />-->
+    </div>
+    <div style="display: flex;width: 500px;justify-content: space-between;">
+    <button id="red" style="color:white;background-color: red;">red</button>
+    <button id="green" style="color:white;background-color: green;">green</button>
+    <button id="blue" style="color:white;background-color: blue;">blue</button>
+    <!--<button id="prev" style="color:white;background-color: Prev;">prev</button>-->
+    <button id="undo" style="color:black;background-color: white;">undo</button>
+    <button id="redo" style="color:black;background-color: white;">redo</button>
+  </div>
   </body>
 </html>
